@@ -3,7 +3,7 @@
 ## Steps 
 1. Create a free tier  AWS account
 2. Click all services
-   ![alt text](https://github.com/wiemBe/How-to-VPN/blob/main/src/s1.png)
+   ![alt text](https://github.com/wiemBe/How-to-VPN/blob/main/src/s7.png)
 4. Click  EC2
 5. Go to instances
 6. Launch instances
