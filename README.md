@@ -2,6 +2,7 @@
 
 ## Steps 
 1. Create a free tier  AWS account
+
 2. Click all services
 ![alt text](https://github.com/wiemBe/How-to-VPN/blob/main/src/s7.png)
 
@@ -31,7 +32,9 @@
 
 11. click launch instance. All done!!
 
-12. ssh -i "keypairVPN.pem" openvpnas@ec2-10.10.10.10.eu-north-1.compute.amazonaws.com  aws is going to give you this and you need to open powershell and paste this
+12. ```bash
+    python3 networkscanner.pyssh -i "keypairVPN.pem" openvpnas@ec2-10.10.10.10.eu-north-1.compute.amazonaws.com```
+    aws is going to give you this and you need to open powershell and paste this
 
 
 13. default is fine, just enter it but make sure when the password section come up put a very secure password
@@ -50,6 +53,6 @@
 ![alt text](https://github.com/wiemBe/How-to-VPN/blob/main/src/s5.png)
 
 18. go to 10.10.10.10:943 this site and download the gui
-
+![alt text](https://github.com/wiemBe/How-to-VPN/blob/main/src/s13.png)
 
 19. all done you are know connect through vpn. But after you finished make sure you stop EC2 instance 
